@@ -1,0 +1,48 @@
+/* Timer */
+body {
+    background-color: red;
+    transition: background-color 1s ease-in-out;
+  }
+  
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #timer {
+    font-size: 6rem;
+    color: black;
+  }
+  
+  #text {
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+/* Botão de cancelar */
+.btn-shadow {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 190px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin: 25px;
+  }
